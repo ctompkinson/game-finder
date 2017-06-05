@@ -1,0 +1,10 @@
+game-finder-*/
+game-finder/*.tar.gz
+game-finder/vendor
+*.tar.gz
+.idea/
+*.gem
+tags
+coverage/
+doc/
+html/
