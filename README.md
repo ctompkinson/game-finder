@@ -96,6 +96,8 @@ Psycho Pack
 ## Tests
 To execute tests `rake test` individual test types are available under `rake test:unit` or `rake test:lint`
 
+Coverage is available under `coverage/index.html` once tests have been runs
+
 ## Packaging
 
 ### Travelling Ruby
