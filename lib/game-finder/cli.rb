@@ -1,5 +1,6 @@
 require 'thor'
 require 'game-finder/search'
+require 'game-finder/info'
 
 class Cli < Thor
   desc 'search', 'Search for game titles'
@@ -8,7 +9,7 @@ class Cli < Thor
   end
 
   desc 'info', 'Display info for a specific game title'
-  def info
-    raise 'unimplemented'
+  def info(*name)
+    Info.new.game(name, options)
   end
 end

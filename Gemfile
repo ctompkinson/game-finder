@@ -5,7 +5,6 @@ gem 'colorize'
 gem 'english'
 gem 'httparty'
 gem 'thor'
-gem 'colorize'
 
 group :development do
   gem 'rake'
