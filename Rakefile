@@ -1,5 +1,3 @@
-require 'rdoc/task'
-
 TRAVELING_RUBY_VERSION = '20150210-2.2.0'.freeze
 ENTRY_POINT = 'game-finder.rb'.freeze
 GEMSPEC = 'game-finder.gemspec'.freeze
@@ -13,7 +11,6 @@ task :clean do
   sh 'rm -rf packaging/vendor || true'
   sh 'rm packaging/*.tar.gz   || true'
   sh 'rm *.gem                || true'
-  Rake::Task['doc:clean'].invoke
 end
 
 ################################################################################
@@ -34,11 +31,6 @@ namespace 'test' do
     separator('Lint tests')
     sh 'rubocop lib/**/* spec/**/* Rakefile'
   end
-
-  desc 'Run constraint tests'
-  task :constraints do
-    true
-  end
 end
 
 desc 'Runs all tests'
@@ -51,18 +43,6 @@ namespace :build do
   desc 'Builds the gem'
   task :gem do
     sh "gem build #{GEMSPEC}"
-  end
-end
-
-namespace :doc do
-  desc 'Generate Documentation'
-  task :generate do
-    sh "rdoc $(find lib/ -type f -name '*.rb')"
-  end
-
-  desc 'Clean Documentation'
-  task :clean do
-    sh 'rm -rf doc'
   end
 end
 

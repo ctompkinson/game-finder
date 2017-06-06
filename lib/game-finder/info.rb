@@ -12,7 +12,6 @@ class Info
   GAME_FIELD_LIST = 'name,developers,genres,publishers,platforms,' \
                     'dlcs,original_release_date'.freeze
 
-  # TODO: MAKE IT SHOW ONLY ONE!
   def find(name, _options = {})
     search_results = request('search', field_list: 'id', query: name, limit: '1')['results']
     output request("game/#{search_results.first['id']}",
