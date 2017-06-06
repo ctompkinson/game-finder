@@ -21,7 +21,7 @@ describe Config do
   describe :load_config do
     it 'returns a struct' do
       allow(File).to receive(:exist?).and_return(true)
-      allow(YAML).to receive(:load_file).and_return({'foo' => 'bar'})
+      allow(YAML).to receive(:load_file).and_return('foo' => 'bar')
       expect(config.foo).to eq 'bar'
     end
   end

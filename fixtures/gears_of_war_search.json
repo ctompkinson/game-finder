@@ -1,0 +1,43 @@
+{
+    "error": "OK",
+    "limit": 10,
+    "number_of_page_results": 9,
+    "number_of_total_results": 9,
+    "offset": 0,
+    "results": [
+        {
+            "id": 12231,
+            "resource_type": "game"
+        },
+        {
+            "id": 30615,
+            "resource_type": "game"
+        },
+        {
+            "id": 38481,
+            "resource_type": "game"
+        },
+        {
+            "id": 45269,
+            "resource_type": "game"
+        },
+        {
+            "id": 20662,
+            "resource_type": "game"
+        },
+        {
+            "id": 565,
+            "resource_type": "franchise"
+        },
+        {
+            "id": 11636,
+            "resource_type": "video"
+        },
+        {
+            "id": 11117,
+            "resource_type": "video"
+        }
+    ],
+    "status_code": 1,
+    "version": "1.0"
+}

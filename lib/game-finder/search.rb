@@ -3,6 +3,7 @@ require 'colorize'
 
 require 'game-finder/api'
 
+# Allows you to search for games
 class Search
   include Api
 
@@ -15,9 +16,9 @@ class Search
 
   def output(result)
     result['results'].each do |game|
-      puts "     Name: ".yellow + game['name']
-      puts "Platforms: ".yellow + format_platforms(game['platforms']) if game['platforms']
-      puts "  Release: ".yellow + game['original_release_date'].split(' ').first \
+      puts 'Name: '.yellow + game['name']
+      puts 'Platforms: '.yellow + format_platforms(game['platforms']) if game['platforms']
+      puts 'Release: '.yellow + game['original_release_date'].split(' ').first \
         if game['original_release_date']
       puts
     end
