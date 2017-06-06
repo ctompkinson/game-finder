@@ -2,6 +2,7 @@ require 'thor'
 require 'game-finder/search'
 require 'game-finder/info'
 
+# CLI Entry point
 class Cli < Thor
   desc 'search', 'Search for game titles'
   def search(*query)
@@ -10,6 +11,6 @@ class Cli < Thor
 
   desc 'info', 'Display info for a specific game title'
   def info(*name)
-    Info.new.game(name, options)
+    Info.new.find(name, options)
   end
 end
