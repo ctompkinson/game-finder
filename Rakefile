@@ -2,6 +2,8 @@ TRAVELING_RUBY_VERSION = '20150210-2.2.0'.freeze
 ENTRY_POINT = 'game-finder.rb'.freeze
 GEMSPEC = 'game-finder.gemspec'.freeze
 
+task default: ['test']
+
 task :install do
   sh 'bundle install'
 end
