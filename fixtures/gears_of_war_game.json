@@ -1,0 +1,99 @@
+{
+    "error": "OK",
+    "limit": 1,
+    "number_of_page_results": 1,
+    "number_of_total_results": 1,
+    "offset": 0,
+    "results": {
+        "developers": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/company/3010-149/",
+                "id": 149,
+                "name": "Epic Games",
+                "site_detail_url": "https://www.giantbomb.com/epic-games/3010-149/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/company/3010-8415/",
+                "id": 8415,
+                "name": "The Coalition",
+                "site_detail_url": "https://www.giantbomb.com/the-coalition/3010-8415/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/company/3010-5054/",
+                "id": 5054,
+                "name": "Psyonix Studios",
+                "site_detail_url": "https://www.giantbomb.com/psyonix-studios/3010-5054/"
+            }
+        ],
+        "dlcs": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/dlc/3020-696/",
+                "id": 696,
+                "name": "Multiplayer Map Pack 1",
+                "site_detail_url": "https://www.giantbomb.com/gears-of-war/3030-12231/dlc/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/dlc/3020-697/",
+                "id": 697,
+                "name": "Hidden Fronts Map Pack",
+                "site_detail_url": "https://www.giantbomb.com/gears-of-war/3030-12231/dlc/"
+            }
+        ],
+        "genres": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/genre/3060-1/",
+                "id": 1,
+                "name": "Action",
+                "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=action&wikiTypeId=3060&wikiId=1&genre=1"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/genre/3060-11/",
+                "id": 11,
+                "name": "Shooter",
+                "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=shooter&wikiTypeId=3060&wikiId=11&genre=11"
+            }
+        ],
+        "name": "Gears of War",
+        "original_release_date": "2006-11-07 00:00:00",
+        "platforms": [
+            {
+                "abbreviation": "X360",
+                "api_detail_url": "https://www.giantbomb.com/api/platform/3045-20/",
+                "id": 20,
+                "name": "Xbox 360",
+                "site_detail_url": "https://www.giantbomb.com/xbox-360/3045-20/"
+            },
+            {
+                "abbreviation": "XBGS",
+                "api_detail_url": "https://www.giantbomb.com/api/platform/3045-86/",
+                "id": 86,
+                "name": "Xbox 360 Games Store",
+                "site_detail_url": "https://www.giantbomb.com/xbox-360-games-store/3045-86/"
+            },
+            {
+                "abbreviation": "PC",
+                "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                "id": 94,
+                "name": "PC",
+                "site_detail_url": "https://www.giantbomb.com/pc/3045-94/"
+            },
+            {
+                "abbreviation": "XONE",
+                "api_detail_url": "https://www.giantbomb.com/api/platform/3045-145/",
+                "id": 145,
+                "name": "Xbox One",
+                "site_detail_url": "https://www.giantbomb.com/xbox-one/3045-145/"
+            }
+        ],
+        "publishers": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/publisher/3010-340/",
+                "id": 340,
+                "name": "Microsoft Studios",
+                "site_detail_url": "https://www.giantbomb.com/microsoft-studios/3010-340/"
+            }
+        ]
+    },
+    "status_code": 1,
+    "version": "0"
+}

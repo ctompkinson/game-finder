@@ -1,1 +1,25 @@
-{"error":"OK","limit":10,"offset":0,"number_of_page_results":1,"number_of_total_results":1,"status_code":1,"results":[{"name":"Fastlane Pinball","original_release_date":null,"platforms":[{"api_detail_url":"https:\/\/www.giantbomb.com\/api\/platform\/3045-94\/","id":94,"name":"PC","site_detail_url":"https:\/\/www.giantbomb.com\/pc\/3045-94\/","abbreviation":"PC"}],"resource_type":"game"}],"version":"1.0"}
+{
+    "error": "OK",
+    "limit": 10,
+    "number_of_page_results": 1,
+    "number_of_total_results": 1,
+    "offset": 0,
+    "results": [
+        {
+            "name": "Fastlane Pinball",
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "abbreviation": "PC",
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                    "id": 94,
+                    "name": "PC",
+                    "site_detail_url": "https://www.giantbomb.com/pc/3045-94/"
+                }
+            ],
+            "resource_type": "game"
+        }
+    ],
+    "status_code": 1,
+    "version": "1.0"
+}

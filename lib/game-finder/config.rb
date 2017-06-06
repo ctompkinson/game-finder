@@ -4,6 +4,7 @@ require 'game-finder/util'
 
 include Util
 
+# Helpers for loading and interacting with configuration
 module Config
   CONFIG_PATH         = "#{ENV['HOME']}/.game-finder.yaml".freeze
   DEFAULT_CONFIG_PATH = "#{File.dirname(__FILE__)}/../../files/default_config.yaml".freeze
