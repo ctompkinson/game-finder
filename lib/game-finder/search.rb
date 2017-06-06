@@ -6,6 +6,7 @@ require 'game-finder/api'
 # Allows you to search for games
 class Search
   include Api
+  include Format
 
   def game(query, _options = {})
     output request('search',
@@ -22,9 +23,5 @@ class Search
         if game['original_release_date']
       puts
     end
-  end
-
-  def format_platforms(platforms)
-    platforms.map { |platform| platform['name'] }.join(', ')
   end
 end
