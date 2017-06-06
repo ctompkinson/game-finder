@@ -33,7 +33,7 @@ describe Api do
       expect(i).to receive(:puts).with("\e[0;33;49mDevelopers: \e[0mEpic Games, " \
                                        'The Coalition, Psyonix Studios')
       expect(i).to receive(:puts).with("\e[0;33;49mGenres: \e[0mAction, Shooter")
-      expect(i).to receive(:puts).with("\e[0;33;49mDLCs:\\n\e[0m" \
+      expect(i).to receive(:puts).with("\e[0;33;49mDLCs:\n\e[0m" \
                                        "Multiplayer Map Pack 1\n" \
                                        'Hidden Fronts Map Pack')
       i.output(JSON.parse(gears_game)['results'])

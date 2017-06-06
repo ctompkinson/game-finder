@@ -83,7 +83,8 @@ Platforms: Mac, Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, Android,
 Released: 2012-09-18
 Genres: Role-Playing, First-Person Shooter
 Developers: Gearbox Software LLC
-DLCs:\nBorderlands 2: Mechromancer
+DLCs:
+Borderlands 2: Mechromancer
 Captain Scarlett and Her Pirate's Booty
 Season Pass
 Mister Torgue's Campaign of Carnage

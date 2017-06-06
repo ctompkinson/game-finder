@@ -28,7 +28,7 @@ class Info
       if game['genres']
     puts 'Developers: '.yellow + format_developers(game['developers']) \
       if game['developers']
-    puts 'DLCs:\n'.yellow + format_dlcs(game['dlcs']) \
+    puts "DLCs:\n".yellow + format_dlcs(game['dlcs']) \
       if game['dlcs']
   end
 end
