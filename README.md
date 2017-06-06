@@ -2,6 +2,8 @@
 
 Command line tool for finding games and seeing related metadata
 
+![Travis CI](https://travis-ci.org/ctompkinson/game-finder.svg?branch=master)
+
 ## Example Workflow
 ```
 game-finder search borderlands
