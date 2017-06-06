@@ -14,7 +14,7 @@ describe Api do
   describe :find do
     it 'Finds and outputs a given game' do
       expect(i).to receive(:request)
-        .with('search', field_list: 'id', query: 'Gears of War')
+        .with('search', field_list: 'id', query: 'Gears of War', limit: '1')
         .and_return(JSON.parse(gears_search))
       expect(i).to receive(:request)
         .with('game/12231', field_list: Info::GAME_FIELD_LIST)
