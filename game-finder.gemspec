@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description   = 'A command line tool to allow searching of games'
   s.authors       = ['Chris Tompkinson']
   s.email         = ['ctompkinson@gmail.com']
-  s.homepage      = 'github.com/ctompkinson/game-finder'
+  s.homepage      = 'https://github.com/ctompkinson/game-finder'
   s.license       = 'MIT'
   s.required_ruby_version = '>= 2.1'
 
@@ -23,15 +23,14 @@ Gem::Specification.new do |s|
   s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  # TODO: Add gem versions
-  s.add_dependency 'colorize'
-  s.add_dependency 'english'
-  s.add_dependency 'httparty'
-  s.add_dependency 'thor'
+  s.add_dependency 'colorize', '0.8.1'
+  s.add_dependency 'english', '0.6.3'
+  s.add_dependency 'httparty', '0.14.0'
+  s.add_dependency 'thor', '0.19.4'
 
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec'
-  s.add_development_dependency 'rubocop'
-  s.add_development_dependency 'simplecov'
-  s.add_development_dependency 'webmock'
+  s.add_development_dependency 'rake', '11.2.2'
+  s.add_development_dependency 'rspec', '3.6.0'
+  s.add_development_dependency 'rubocop', '0.48.1'
+  s.add_development_dependency 'simplecov', '0.12.0'
+  s.add_development_dependency 'webmock', '1.22.6'
 end
